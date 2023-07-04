@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cookie Cleaner</title>
+  <style>
+    body {
+      width: 300px;
+      height: 250px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    #cookieImage {
+      width: 100px;
+      height: 100px;
+      cursor: pointer;
+    }
+    #message {
+      margin-top: 20px;
+    }
+    #settingsContainer {
+      display: none;
+    }
+    #settingsToggle {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cookie Cleaner</h1>
+  <img id="cookieImage" src="cookie.png" alt="Cookie">
+
+  <div id="message"></div>
+
+  <div id="settingsContainer">
+    <label for="timeInterval">Auto cookie deleting::</label>
+    <select id="timeInterval">
+      <option value="manual">Manualy</option>
+      <option value="daily">Daily</option>
+      <option value="weekly">Weekly</option>
+    </select>
+  </div>
+
+  <img id="settingsToggle" src="trybik.png" alt="Settings">
+
+  <script src="popup.js"></script>
+</body>
+</html>

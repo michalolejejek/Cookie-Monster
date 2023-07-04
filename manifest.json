@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Cookie Cleaner",
+    "version": "1.0",
+    "description": "Clean Cookies right now!",
+    "permissions": [
+      "cookies",
+      "tabs"
+    ],
+    "browser_action": {
+      "default_title": "Cookie Cleaner",
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
